@@ -4,9 +4,9 @@ namespace Wernersoderstrom\MockingbirdWebhookClient\Tests;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-use Wernersoderstrom\MockingbirdWebhookClient\MockingbirdWebhookClientServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 use Spatie\WebhookClient\WebhookClientServiceProvider;
+use Wernersoderstrom\MockingbirdWebhookClient\MockingbirdWebhookClientServiceProvider;
 
 class TestCase extends Orchestra
 {

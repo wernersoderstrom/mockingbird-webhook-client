@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Event;
-use Wernersoderstrom\MockingbirdWebhookClient\Events\EditionUpdated;
 use Spatie\WebhookClient\Models\WebhookCall;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\EditionUpdated;
 
 it('dispatches edition updated event from incoming webhook', function () {
     config()->set('queue.default', 'sync');
