@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Event;
-use Lasselehtinen\MockingbirdWebhookClient\Events\EditionUpdated;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\EditionUpdated;
 use Spatie\WebhookClient\Models\WebhookCall;
 
 it('dispatches edition updated event from incoming webhook', function () {

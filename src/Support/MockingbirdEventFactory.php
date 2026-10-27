@@ -1,18 +1,18 @@
 <?php
 
-namespace Lasselehtinen\MockingbirdWebhookClient\Support;
+namespace Wernersoderstrom\MockingbirdWebhookClient\Support;
 
 use Illuminate\Contracts\Container\Container;
-use Lasselehtinen\MockingbirdWebhookClient\Contracts\MockingbirdWebhookEvent;
-use Lasselehtinen\MockingbirdWebhookClient\Data\MockingbirdWebhookData;
-use Lasselehtinen\MockingbirdWebhookClient\Events\AssetUpdated;
-use Lasselehtinen\MockingbirdWebhookClient\Events\ContactUpdated;
-use Lasselehtinen\MockingbirdWebhookClient\Events\EditionContributorsUpdated;
-use Lasselehtinen\MockingbirdWebhookClient\Events\EditionPriceUpdated;
-use Lasselehtinen\MockingbirdWebhookClient\Events\EditionTextsUpdated;
-use Lasselehtinen\MockingbirdWebhookClient\Events\EditionUpdated;
-use Lasselehtinen\MockingbirdWebhookClient\Events\PrintTimePlanUpdated;
-use Lasselehtinen\MockingbirdWebhookClient\Exceptions\UnsupportedMockingbirdEvent;
+use Wernersoderstrom\MockingbirdWebhookClient\Contracts\MockingbirdWebhookEvent;
+use Wernersoderstrom\MockingbirdWebhookClient\Data\MockingbirdWebhookData;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\AssetUpdated;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\ContactUpdated;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\EditionContributorsUpdated;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\EditionPriceUpdated;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\EditionTextsUpdated;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\EditionUpdated;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\PrintTimePlanUpdated;
+use Wernersoderstrom\MockingbirdWebhookClient\Exceptions\UnsupportedMockingbirdEvent;
 
 final class MockingbirdEventFactory
 {

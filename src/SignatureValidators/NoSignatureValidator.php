@@ -1,6 +1,6 @@
 <?php
 
-namespace Lasselehtinen\MockingbirdWebhookClient\SignatureValidators;
+namespace Wernersoderstrom\MockingbirdWebhookClient\SignatureValidators;
 
 use Illuminate\Http\Request;
 use Spatie\WebhookClient\SignatureValidator\SignatureValidator;

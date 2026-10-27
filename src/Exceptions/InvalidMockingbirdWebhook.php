@@ -1,6 +1,6 @@
 <?php
 
-namespace Lasselehtinen\MockingbirdWebhookClient\Exceptions;
+namespace Wernersoderstrom\MockingbirdWebhookClient\Exceptions;
 
 use InvalidArgumentException;
 

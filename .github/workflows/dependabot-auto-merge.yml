@@ -9,7 +9,7 @@ jobs:
   dependabot:
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    if: ${{ github.event.pull_request.user.login == 'dependabot[bot]' && github.repository == 'lasselehtinen/mockingbird-webhook-client' }}
+    if: ${{ github.event.pull_request.user.login == 'dependabot[bot]' && github.repository == 'wernersoderstrom/mockingbird-webhook-client' }}
     steps:
 
       - name: Dependabot metadata

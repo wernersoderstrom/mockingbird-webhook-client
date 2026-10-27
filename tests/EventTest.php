@@ -1,14 +1,14 @@
 <?php
 
-use Lasselehtinen\MockingbirdWebhookClient\Data\MockingbirdWebhookData;
-use Lasselehtinen\MockingbirdWebhookClient\Events\AssetUpdated;
-use Lasselehtinen\MockingbirdWebhookClient\Events\ContactUpdated;
-use Lasselehtinen\MockingbirdWebhookClient\Events\DistributionRulesUpdated;
-use Lasselehtinen\MockingbirdWebhookClient\Events\EditionContributorsUpdated;
-use Lasselehtinen\MockingbirdWebhookClient\Events\EditionPriceUpdated;
-use Lasselehtinen\MockingbirdWebhookClient\Events\EditionTextsUpdated;
-use Lasselehtinen\MockingbirdWebhookClient\Events\EditionUpdated;
-use Lasselehtinen\MockingbirdWebhookClient\Events\PrintTimePlanUpdated;
+use Wernersoderstrom\MockingbirdWebhookClient\Data\MockingbirdWebhookData;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\AssetUpdated;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\ContactUpdated;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\DistributionRulesUpdated;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\EditionContributorsUpdated;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\EditionPriceUpdated;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\EditionTextsUpdated;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\EditionUpdated;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\PrintTimePlanUpdated;
 
 it('edition event returns the edition id', function () {
     $data = new MockingbirdWebhookData(

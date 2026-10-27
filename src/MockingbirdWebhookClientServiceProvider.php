@@ -1,10 +1,10 @@
 <?php
 
-namespace Lasselehtinen\MockingbirdWebhookClient;
+namespace Wernersoderstrom\MockingbirdWebhookClient;
 
 use Illuminate\Support\Facades\Route;
-use Lasselehtinen\MockingbirdWebhookClient\Jobs\ProcessMockingbirdWebhookJob;
-use Lasselehtinen\MockingbirdWebhookClient\SignatureValidators\NoSignatureValidator;
+use Wernersoderstrom\MockingbirdWebhookClient\Jobs\ProcessMockingbirdWebhookJob;
+use Wernersoderstrom\MockingbirdWebhookClient\SignatureValidators\NoSignatureValidator;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 use Spatie\WebhookClient\Models\WebhookCall;

@@ -1,12 +1,12 @@
 {
-    "name": "lasselehtinen/mockingbird-webhook-client",
+    "name": "wernersoderstrom/mockingbird-webhook-client",
     "description": "This package receives Mockingbird webhooks and convert them into strongly typed Laravel events.",
     "keywords": [
-        "lasselehtinen",
+        "wernersoderstrom",
         "laravel",
         "mockingbird-webhook-client"
     ],
-    "homepage": "https://github.com/lasselehtinen/mockingbird-webhook-client",
+    "homepage": "https://github.com/wernersoderstrom/mockingbird-webhook-client",
     "license": "MIT",
     "authors": [
         {
@@ -36,13 +36,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Lasselehtinen\\MockingbirdWebhookClient\\": "src/",
-            "Lasselehtinen\\MockingbirdWebhookClient\\Database\\Factories\\": "database/factories/"
+            "Wernersoderstrom\\MockingbirdWebhookClient\\": "src/",
+            "Wernersoderstrom\\MockingbirdWebhookClient\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Lasselehtinen\\MockingbirdWebhookClient\\Tests\\": "tests/",
+            "Wernersoderstrom\\MockingbirdWebhookClient\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -64,10 +64,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Lasselehtinen\\MockingbirdWebhookClient\\MockingbirdWebhookClientServiceProvider"
+                "Wernersoderstrom\\MockingbirdWebhookClient\\MockingbirdWebhookClientServiceProvider"
             ],
             "aliases": {
-                "MockingbirdWebhookClient": "Lasselehtinen\\MockingbirdWebhookClient\\Facades\\MockingbirdWebhookClient"
+                "MockingbirdWebhookClient": "Wernersoderstrom\\MockingbirdWebhookClient\\Facades\\MockingbirdWebhookClient"
             }
         }
     },

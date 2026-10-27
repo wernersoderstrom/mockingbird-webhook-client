@@ -1,8 +1,8 @@
 <?php
 
-namespace Lasselehtinen\MockingbirdWebhookClient\Contracts;
+namespace Wernersoderstrom\MockingbirdWebhookClient\Contracts;
 
-use Lasselehtinen\MockingbirdWebhookClient\Data\MockingbirdWebhookData;
+use Wernersoderstrom\MockingbirdWebhookClient\Data\MockingbirdWebhookData;
 
 interface MockingbirdWebhookEvent
 {

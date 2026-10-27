@@ -1,5 +1,5 @@
 <?php
 
-namespace Lasselehtinen\MockingbirdWebhookClient;
+namespace Wernersoderstrom\MockingbirdWebhookClient;
 
 class MockingbirdWebhookClient {}

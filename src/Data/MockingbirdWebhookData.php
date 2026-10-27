@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Lasselehtinen\MockingbirdWebhookClient\Data;
+namespace Wernersoderstrom\MockingbirdWebhookClient\Data;
 
 use Carbon\CarbonImmutable;
 use Illuminate\Support\Str;
-use Lasselehtinen\MockingbirdWebhookClient\Exceptions\InvalidMockingbirdWebhook;
+use Wernersoderstrom\MockingbirdWebhookClient\Exceptions\InvalidMockingbirdWebhook;
 
 final readonly class MockingbirdWebhookData
 {

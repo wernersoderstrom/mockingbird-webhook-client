@@ -1,10 +1,10 @@
 <?php
 
-namespace Lasselehtinen\MockingbirdWebhookClient\Jobs;
+namespace Wernersoderstrom\MockingbirdWebhookClient\Jobs;
 
 use Illuminate\Contracts\Events\Dispatcher;
-use Lasselehtinen\MockingbirdWebhookClient\Data\MockingbirdWebhookData;
-use Lasselehtinen\MockingbirdWebhookClient\Support\MockingbirdEventFactory;
+use Wernersoderstrom\MockingbirdWebhookClient\Data\MockingbirdWebhookData;
+use Wernersoderstrom\MockingbirdWebhookClient\Support\MockingbirdEventFactory;
 use Spatie\WebhookClient\Jobs\ProcessWebhookJob;
 
 final class ProcessMockingbirdWebhookJob extends ProcessWebhookJob

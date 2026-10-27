@@ -1,6 +1,6 @@
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/lasselehtinen/mockingbird-webhook-client.svg?style=flat-square)](https://packagist.org/packages/lasselehtinen/mockingbird-webhook-client)
-[![run-tests](https://github.com/lasselehtinen/mockingbird-webhook-client/actions/workflows/run-tests.yml/badge.svg)](https://github.com/lasselehtinen/mockingbird-webhook-client/actions/workflows/run-tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/lasselehtinen/mockingbird-webhook-client.svg?style=flat-square)](https://packagist.org/packages/lasselehtinen/mockingbird-webhook-client)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/wernersoderstrom/mockingbird-webhook-client.svg?style=flat-square)](https://packagist.org/packages/wernersoderstrom/mockingbird-webhook-client)
+[![run-tests](https://github.com/wernersoderstrom/mockingbird-webhook-client/actions/workflows/run-tests.yml/badge.svg)](https://github.com/wernersoderstrom/mockingbird-webhook-client/actions/workflows/run-tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/wernersoderstrom/mockingbird-webhook-client.svg?style=flat-square)](https://packagist.org/packages/wernersoderstrom/mockingbird-webhook-client)
 
 # Mockingbird Webhook Client
 
@@ -18,7 +18,7 @@ The package is built on top of `spatie/laravel-webhook-client` and provides:
 # Installation
 
 ```bash
-composer require lasselehtinen/mockingbird-webhook-client
+composer require wernersoderstrom/mockingbird-webhook-client
 php artisan vendor:publish --tag="webhook-client-migrations"
 php artisan migrate
 ```
@@ -95,9 +95,9 @@ namespace App\Providers;
 use App\Listeners\UpdateOnixMessage;
 use App\Listeners\SyncContributorData;
 use App\Listeners\UpdateMetadataInExternalAssetManagement;
-use Lasselehtinen\MockingbirdWebhookClient\Events\AssetUpdated;
-use Lasselehtinen\MockingbirdWebhookClient\Events\EditionContributorsUpdated;
-use Lasselehtinen\MockingbirdWebhookClient\Events\EditionUpdated;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\AssetUpdated;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\EditionContributorsUpdated;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\EditionUpdated;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 
 class EventServiceProvider extends ServiceProvider

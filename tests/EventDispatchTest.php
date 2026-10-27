@@ -1,9 +1,9 @@
 <?php
 
-use Lasselehtinen\MockingbirdWebhookClient\Data\MockingbirdWebhookData;
-use Lasselehtinen\MockingbirdWebhookClient\Events\EditionUpdated;
-use Lasselehtinen\MockingbirdWebhookClient\Exceptions\UnsupportedMockingbirdEvent;
-use Lasselehtinen\MockingbirdWebhookClient\Support\MockingbirdEventFactory;
+use Wernersoderstrom\MockingbirdWebhookClient\Data\MockingbirdWebhookData;
+use Wernersoderstrom\MockingbirdWebhookClient\Events\EditionUpdated;
+use Wernersoderstrom\MockingbirdWebhookClient\Exceptions\UnsupportedMockingbirdEvent;
+use Wernersoderstrom\MockingbirdWebhookClient\Support\MockingbirdEventFactory;
 
 it('creates product updated event', function () {
 

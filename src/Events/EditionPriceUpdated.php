@@ -1,11 +1,11 @@
 <?php
 
-namespace Lasselehtinen\MockingbirdWebhookClient\Events;
+namespace Wernersoderstrom\MockingbirdWebhookClient\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
-use Lasselehtinen\MockingbirdWebhookClient\Contracts\MockingbirdWebhookEvent;
-use Lasselehtinen\MockingbirdWebhookClient\Data\MockingbirdWebhookData;
+use Wernersoderstrom\MockingbirdWebhookClient\Contracts\MockingbirdWebhookEvent;
+use Wernersoderstrom\MockingbirdWebhookClient\Data\MockingbirdWebhookData;
 
 final class EditionPriceUpdated implements MockingbirdWebhookEvent
 {
